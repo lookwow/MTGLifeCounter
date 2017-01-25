@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -12,8 +13,30 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight=".5">
+            android:layout_weight=".5"
+            android:background="#5b9b62">
 
+            <TextView
+                android:text="Player 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtP1Label"
+                android:layout_centerVertical="false"
+                android:layout_centerHorizontal="true"
+                android:textSize="30sp" />
+
+            <TextView
+                android:text="40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLifeValue"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentStart="false"
+                android:textSize="30sp"
+                android:layout_below="@+id/txtP1Label"
+                android:layout_marginTop="40dp"
+                android:layout_centerVertical="false"
+                android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
         <RelativeLayout
