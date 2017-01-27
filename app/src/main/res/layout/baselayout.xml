@@ -173,6 +173,155 @@
             android:layout_weight=".5"
             android:background="#ab3434">
 
+            <TextView
+                android:text="Player 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtP3Label"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtP3Label"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:id="@+id/linP3L1">
+
+                <Button
+                    android:text="+5"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP3Plus5"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="50dp" />
+
+                <Button
+                    android:text="+1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP3Plus1"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="50dp" />
+
+                <TextView
+                    android:text="40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtP3LifeValue"
+                    android:textSize="50sp"
+                    android:layout_centerHorizontal="false"
+                    android:gravity="center" />
+
+                <Button
+                    android:text="-1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP3Min1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp" />
+
+                <Button
+                    android:text="-5"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP3Min5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linP3L2"
+                android:layout_above="@+id/linP3L3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="Commander Damage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtP3Commander" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="Poison"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtP3Poison" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/linP3L3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:gravity="center">
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP3C1"
+                        android:backgroundTint="#5b9b62"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP3C2"
+                        android:backgroundTint="#3036b2"/>
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP3C4"
+                        android:backgroundTint="#d06519" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center">
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP3Poison"
+                        android:backgroundTint="#48f100" />
+                </LinearLayout>
+
+            </LinearLayout>
+
         </RelativeLayout>
     </LinearLayout>
 
@@ -188,6 +337,155 @@
             android:layout_weight=".5"
             android:background="#3036b2">
 
+            <TextView
+                android:text="Player 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtP2Label"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtP2Label"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:id="@+id/linP2L1">
+
+                <Button
+                    android:text="+5"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP2Plus5"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="50dp" />
+
+                <Button
+                    android:text="+1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP2Plus1"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="50dp" />
+
+                <TextView
+                    android:text="40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtP2LifeValue"
+                    android:textSize="50sp"
+                    android:layout_centerHorizontal="false"
+                    android:gravity="center" />
+
+                <Button
+                    android:text="-1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP2Min1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp" />
+
+                <Button
+                    android:text="-5"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP2Min5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linP2L2"
+                android:layout_above="@+id/linP2L3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="Commander Damage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtP2Commander" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="Poison"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtP2Poison" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/linP2L3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:gravity="center">
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP2C1"
+                        android:backgroundTint="#5b9b62"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP2C3"
+                        android:backgroundTint="#ab3434"/>
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP2C4"
+                        android:backgroundTint="#d06519" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center">
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP2Poison"
+                        android:backgroundTint="#48f100" />
+                </LinearLayout>
+
+            </LinearLayout>
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -195,6 +493,155 @@
             android:layout_height="match_parent"
             android:layout_weight=".5"
             android:background="#d06519">
+
+            <TextView
+                android:text="Player 4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtP4Label"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtP4Label"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:id="@+id/linP4L1">
+
+                <Button
+                    android:text="+5"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP4Plus5"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="50dp" />
+
+                <Button
+                    android:text="+1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP4Plus1"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="50dp" />
+
+                <TextView
+                    android:text="40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtP4LifeValue"
+                    android:textSize="50sp"
+                    android:layout_centerHorizontal="false"
+                    android:gravity="center" />
+
+                <Button
+                    android:text="-1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP4Min1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp" />
+
+                <Button
+                    android:text="-5"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnP4Min5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linP4L2"
+                android:layout_above="@+id/linP4L3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="Commander Damage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtP4Commander" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="Poison"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtP4Poison" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/linP4L3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:gravity="center">
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP4C1"
+                        android:backgroundTint="#5b9b62"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP4C2"
+                        android:backgroundTint="#3036b2"/>
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP4C3"
+                        android:backgroundTint="#ab3434" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center">
+
+                    <Button
+                        android:text="0"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/btnP4Poison"
+                        android:backgroundTint="#48f100" />
+                </LinearLayout>
+
+            </LinearLayout>
 
         </RelativeLayout>
     </LinearLayout>
